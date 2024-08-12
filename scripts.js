@@ -1,5 +1,5 @@
 /*
-  -> Função para obter a lista de vinhos na adega (via requisição GET)
+  -> Function to get the list of wines in the cellar (via GET request)
 */
 const getList = async () => {
   let url = 'http://127.0.0.1:5000/vinhos';
@@ -17,13 +17,13 @@ const getList = async () => {
 
 
 /*
-  -> Função para carregamento inicial da lista
+  -> Function for initial loading of the list
 */
 getList()
 
 
 /*
-  -> Função para adicionar um vinho na lista (via requisição POST)
+  -> Function to add a wine to the list (via POST request)
 */
 const postItem = async (inputVinho, inputUva, inputAno,inputCategoria, inputFabricante) => {
   const formData = new FormData();
@@ -46,7 +46,7 @@ const postItem = async (inputVinho, inputUva, inputAno,inputCategoria, inputFabr
 
 
 /*
-  -> Função para criar um botão close para cada vinho da adega
+  -> Function to create a close button for each wine in the cellar
 */
 const insertButton = (parent) => {
   let span = document.createElement("span");
@@ -58,7 +58,7 @@ const insertButton = (parent) => {
 
 
 /*
-  -> Função para remover um vinho da adega (click no botão close)
+  -> Function to remove a wine from the cellar (click on the close button)
 */
 const removeElement = () => {
   let close = document.getElementsByClassName("close");
@@ -78,7 +78,7 @@ const removeElement = () => {
 }
 
 /*
-  -> Função para remover um vinho da adega (via requisição DELETE)
+  -> Function to remove a wine from the cellar (via DELETE request)
 */
 const deleteItem = (item) => {
   console.log(item)
@@ -94,7 +94,7 @@ const deleteItem = (item) => {
 
 
 /*
-  -> Função para adicionar um novo vinho na adega com nome, uva, ano, categoria e fabricante
+  -> Function to add a new wine to the cellar with name, grape variety, year, category, and manufacturer
 */
 const newItem = () => {
   let inputVinho = document.getElementById("newVinho").value;
@@ -116,7 +116,7 @@ const newItem = () => {
 
 
 /*
-  Função para inserir vinhos na lista
+  Function to add wines to the list
 */
 const insertList = (vinho, uva, ano, categoria, fabricante) => {
   var item = [vinho, uva, ano, categoria, fabricante]
