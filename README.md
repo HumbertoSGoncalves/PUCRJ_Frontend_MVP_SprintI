@@ -1,14 +1,14 @@
-# MVP Frontend - Adega Virtual
+# MVP Frontend - Virtual Wine Cellar
 
-Este projeto contempla os requisitos para a entrega do MVP da **Sprint I: Desenvolvimento Full Stack Básico** do curso de Pós Graduação em Engenharia de Software da PUC RIO.
+This project encompasses the requirements for the delivery of the MVP for **Sprint I: Basic Full Stack Development of the Software Engineering** postgraduate course at PUC RIO.
 
-O objetivo é utilizar do conteúdo ensinado durante as aulas para a criação de uma single page application, contando com front e backend. Para que isso fosse possível, foi criada uma Adega virtual, onde os vinhos podem ser adicionados, consultados, ou excluídos.
+The objective is to use the content taught during the classes to create a single-page application, including both frontend and backend. A virtual wine cellar was designed to achieve this, where wines can be added, viewed, or deleted.
 
-Mais especificamente, para os códigos aqui encaminhados, será explorado o **frontend do MVP**.
+More specifically, the **frontend of the MVP** will be explored in the code provided here.
 
 ---
-## Como executar
+## How to Run
 
-Basta fazer o download do projeto e abrir o arquivo index.html no browser de sua preferência.
+Download the project and open the index.html file in your preferred browser.
 
-Não esqueça de estar com o backend rodando para que seja possível os testes do frontend. (https://github.com/HumbertoSGoncalves/PUCRJ_Backend_MVP_SprintI.git)
+Don’t forget to have the backend running to test the frontend. (https://github.com/HumbertoSGoncalves/PUCRJ_Backend_MVP_SprintI.git)
